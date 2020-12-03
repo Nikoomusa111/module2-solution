@@ -1,0 +1,102 @@
+h1{
+	margin-top: 50px;
+	margin-left: 40%;
+}
+.d1{
+	border: 1px solid black;
+	position: relative;
+	background-color: #a6b0c5;
+	width: 32%;
+	float: left;
+	margin: 0 10px 0 0;
+}
+.one {
+	background-color: #A3D5F1;
+	width: 60px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 20px;
+}
+.d2{
+	border: 1px solid black;
+	position: relative;
+	background-color: #a6b0c5;
+	width: 32%;
+	float: left;
+}
+
+.two {
+	background-color: #A3D5F1;
+	width: 60px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 20px;
+
+}
+.d3{
+	border: 1px solid black;
+	position: relative;
+	background-color: #a6b0c5;
+	width: 32%;
+	float: left;
+	margin-left: 10px;
+
+}
+.there {
+	background-color: #A3D5F1;
+	width: 60px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 20px;
+}
+@media(min-width: 1200px)
+{
+	.d1{
+		width: 32%;
+		height :200px;
+	}
+	.d2{
+		width: 32%;
+		height :200px;
+	}
+	.d3{
+		width: 32%;
+		height: 200px;
+	  
+	}
+}
+@media(min-width: 992px) and (max-width: 1199px)
+{
+	.d1{
+		width: 49%;
+		height: auto;
+	}
+	.d2{
+		width: 49%;
+		height: auto;
+	}
+	.d3{
+		width: 99%;
+		margin-top: 10px;
+		margin-left: 0;
+	}
+}
+@media(max-width:991px)
+{
+	.d1{
+		width: 100%;
+		
+	}
+	.d2{
+		width: 100%;
+		margin-top: 10px;
+	}
+	.d3{
+		width: 100%;
+		margin-top: 10px;
+		margin-left: 0;
+	}
+}
